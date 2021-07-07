@@ -1,0 +1,274 @@
+<!-- <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Images</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<style>.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 50px;
+}</style>
+  
+</head>
+<body>
+  <div style="background-color: red; border-radius: 30px;" style="display: flex;">
+    <div class="row-6">
+      <img src="images/founder.jpeg" style="height: 400px; width: 400px;">
+    </div>
+    <div class="row-6" >
+      <section class="py-5">
+        <div class="container">
+            <div class="row-6">
+                <div class="col-lg-6 mx-auto">
+                    <header class="text-center pb-5">
+                        <h1 class="h2">Bootstrap custom quote</h1>
+                        <p>Build a nicely styled quote in Bootstrap 4.<br>Bootstrap snippet by <a href="https://bootstrapious.com/snippets" class="font-italic text-info">Bootstrapious</a></p>
+                    </header>
+                </div>
+            </div>
+    
+    
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+    
+                    <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                        <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                        <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                        <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                            <cite title="Source Title">Source Title</cite>
+                        </footer>
+                    </blockquote>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    
+</div>
+<h1>My Nandha</h1>
+<h1>My Nandha</h1>
+<h1>My Nandha</h1>
+<h1>My Nandha</h1>
+<h1>My Nandha</h1>
+<h1>My Nandha</h1>
+<h1>My Nandha</h1>
+<h1>My Nandha</h1>
+<h1>My Nandha</h1>
+<h1>My Nandha</h1>
+<h1>My Nandha</h1>
+<h1>My Nandha</h1>
+<h1>My Nandha</h1>
+<h1>My Nandha</h1>
+<h1>My Nandha</h1>
+</body>
+</html> -->
+
+<html>
+   <head>
+      <style>
+
+        .mainimg {
+            max-width: 80%;
+            height: auto;
+            border-left: solid rgba(0, 70, 119, 1);
+            border-top: solid rgba(0, 70, 119, 1);
+            filter: saturate(120%);
+            box-shadow: 5px 15px 20px rgba(0, 70, 119, 0.4);
+            animation: shake 5.5s;
+            animation-iteration-count: infinite;
+         }
+
+
+         .mainimg>h1{
+
+           background-color: rgba(0, 70, 119, 0.75);
+          
+           /* background-color: red; */
+           text-align: center;
+           color: red;
+           margin-bottom: -10px;
+           text-transform: uppercase;
+           margin: 0;
+           padding: 0;
+         }
+
+         /* .,am */
+         @keyframes shake {
+         
+          0% {  transform: translate(0.5px, 0.5px); }
+          10% { transform: translate(0px, 0px); }
+          20% { transform: translate(-0.5px, -0.5px); }
+          30% { transform: translate(0px, 0px); }
+          40% {  transform: translate(0.5px, 0.5px); }
+          50% { transform: translate(0px, 0px); }
+          60% { transform: translate(-0.5px, -0.5px); }
+          70% { transform: translate(0px, 0px); }
+          80% {  transform: translate(0.5px, 0.5px); }
+          90% { transform: translate(0px, 0px); }
+          100% { transform: translate(0px, 0px); }
+        
+        }
+
+        /* NEW */
+        #wrapper {
+          width: 600px;
+          height: 600px;
+          margin: 0 auto;
+          position: relative;
+        }
+
+
+     .column {
+        float: left;
+        width: 50%;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+
+
+
+
+      </style>
+
+   </head>
+   <body>
+
+    <p>Hover over the image:</p>
+    <div class="container">
+      <div class="column">
+        <div id= "wrapper" style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+          <div class="mainimg">
+            <h1 style="margin-bottom: -38.5px; position:relative; text-align: center;" >Mr. Brendan Parnell</h1>
+            <img src="images/brendanSir.JPG" height=auto width="100%" alt="" />
+            <!-- style="position: fixed; z-index: 1; margin-top: -10px;" -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <img src="images/founder.jpeg" alt="Pineapple" width="300" height="300"> -->
+   </body>
+</html>
+
+
+
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+        /* margin: 0;
+        padding: 0; */
+        box-sizing: border-box;
+      }
+      
+      /* body {
+        background-color: #80afcd;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        line-height: 1.4;
+      } */
+      
+      .container {
+        background: url("https://images.unsplash.com/photo-1574007557239-acf6863bc375?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 350px;
+        height: 500px;
+        position: relative;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+      }
+      .container  {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 20%;
+        display: flex;
+        align-items: flex-end;
+        padding: 15px 30px;
+        color: #fff;
+      }
+      .container  span {
+        margin-right: 20px;
+      }
+      .container  i {
+        margin-right: 10px;
+      }
+      .container  {
+        background-color: #e4f2fd;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+      }
+      .container  img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-position: center;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+      .container h2 {
+        color: #334454;
+        font-size: 1.2rem;
+      }
+      .container p {
+        color: #a1b2bc;
+        font-size: 0.8rem;
+      }
+      .container  p b {
+        font-style: italic;
+      }</style>
+</head>
+<body>
+    <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+   integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+   crossorigin="anonymous"
+  />
+<div class="container">
+  
+   <di class="container__profile">
+    <img
+     src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+     alt="people"
+    />
+    <div class="container__profile__text">
+     <h2>White Mountains</h2>
+     <p>by <b>Joseph Therrien</b></p>
+    </div>
+   </di>
+  </div>
+</body>
+</html> -->

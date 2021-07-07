@@ -1,0 +1,53 @@
+.teach-work {
+  width: 100%; 
+  /* margin-top: 20px; */
+}
+  .teach-work .img {
+    width: 100%;
+    height:260px;/*350px*/
+    position: relative;
+    border-radius: 0px;/*15px*/
+    overflow: hidden;
+    -webkit-box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
+    z-index: 0; }
+    .teach-work .img:after {
+      position: absolute;
+      top: 20%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: '';
+      z-index: -1;
+      background: rgba(255, 93, 177, 0);
+      background: -moz-linear-gradient(top, rgba(255, 93, 177, 0) 0%, rgba(148, 54, 103, 0) 42%, black 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 93, 177, 0)), color-stop(42%, rgba(148, 54, 103, 0)), color-stop(100%, black));
+      background: -webkit-linear-gradient(top, rgba(255, 93, 177, 0) 0%, rgba(148, 54, 103, 0) 42%, black 100%);
+      background: -o-linear-gradient(top, rgba(255, 93, 177, 0) 0%, rgba(148, 54, 103, 0) 42%, black 100%);
+      background: -ms-linear-gradient(top, rgba(255, 93, 177, 0) 0%, rgba(148, 54, 103, 0) 42%, black 100%);
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 93, 177, 0)), color-stop(42%, rgba(148, 54, 103, 0)), to(black));
+      background: linear-gradient(to bottom, rgba(255, 93, 177, 0) 0%, rgba(148, 54, 103, 0) 42%, black 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#000000', GradientType=0 );
+      opacity: .6;
+     }
+  /* .teach-work .teach-text {
+    padding: 35px;
+    padding-top: 0;
+   }
+    .teach-work .teach-text h3 {
+      font-size: 24px;
+      font-weight: 400;
+      margin-bottom: 0; } */
+      /* .teach-work .teach-text h3 a {
+        color: #fff; }
+
+        .teach-text:hover{
+            background: linear-gradient( to top, rgba(0, 48, 87, 1),rgba(0, 48, 87, 0));
+            transition: 0.5s;
+            
+        } */
+
+        
+
+

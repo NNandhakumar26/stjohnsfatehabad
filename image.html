@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Image</title>
+    <style>
+        body {
+  background: white;
+
+}
+
+#wrapper {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-left: solid rgba(0, 70, 119, 1);
+  border-top: solid rgba(0, 70, 119, 1);
+  filter: saturate(120%);
+  box-shadow: 5px 15px 20px rgba(0, 70, 119, 0.4);
+
+}
+
+#blurred {
+  position: absolute;
+  z-index: 0;
+  filter: blur(100px);
+}
+
+#cover {
+  z-index: 1;
+  position: relative;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="column"><div id="wrapper">
+        <img id="blurred"  src="images/founder.jpeg" class="background" alt="" />
+        <img id="cover"  src="images/founder.jpeg" alt="" />
+      </div></div>
+   
+</body>
+</html>

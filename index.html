@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <title>St. John's international school</title>
+
+    <!--navbar-->
+    <link rel="stylesheet" href="assets/navbar/fontstyle.css">
+    <link rel="stylesheet" href="assets/navbar/navbarcss.css">
+    
+
+
+	<!--Bootstrap
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.css"> -->
+  
+   <!--fontawesomw-cdn-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+
+  <link rel="stylesheet" href="style.css">
+ 
+  <link rel="stylesheet" href="assets/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/owl/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="school_specs.css">
+  <link rel="stylesheet" href="teachers.css">
+
+ 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+
+ 
+    <!-- <<IMPORTING FONTS>> -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+      <!-- <<IMPORTING ANIMATIONS>> -->
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+<style>
+
+h1 {
+    
+    /* font-family: 'Patua One', cursive; */
+    font-family: 'Cormorant Garamond', serif;
+
+  
+    /* font-size: 50px; */
+    /* font-size: 60px; */
+    font-size: calc(1.5rem + 2vw) ;
+    /* font-weight: 500; */
+    line-height: 1.50;
+    opacity: 0.95;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: 0.01px;
+    word-spacing: 5.00px;
+    text-transform: none;
+    color:rgb(0, 48, 87);
+}
+
+h2 {
+  font-family: 'Alegreya SC', serif;
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 1.50;
+    opacity: 0.95;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: 0.01px;
+    word-spacing: 5.00px;
+    text-transform: none;
+    /* color: rgb(236, 236, 6); */
+    color: black;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    letter-spacing: 0.00px;
+    word-spacing: 0.00px;
+    text-transform: none;
+    /* color:rgb(5, 129, 5); */
+}
+h4{
+  font-family: 'Alegreya SC', serif;
+  
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    letter-spacing: 0.00px;
+    word-spacing: 0.00px;
+    text-transform: none;
+    color:rgb(189, 20, 104);
+}
+
+p {
+  
+    font-family: Arial, Helvetica, sans-serif;   
+    font-size:18px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin:  20px 0px 0px 1px;
+    /* opacity: 0.95; */
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: 0.05px;
+    word-spacing: 7px;
+    text-transform: none;
+    color:rgba(82, 84, 86,0.85);
+    text-align: left;
+}
+
+.parallax {
+
+      /* background-image: linear-gradient(to left, rgba(0, 48, 87,0.9), rgba(0, 48, 87,0.8), rgba(0, 48, 87,0.6),rgba(0, 48, 87,0.35),rgba(0, 48, 87,0.15)),
+                  url('images/scholView.jpeg'); */
+      
+      
+      /* background-image: linear-gradient(to top, rgba(0, 48, 82, 0.15),  rgba(0, 48, 82, 0.15)), url("images/SchoolView.jpg"); */
+
+      /* background-image: linear-gradient(to top, rgba(123, 176, 214,0.1),rgba(123, 176, 214,0.25)), url("images/scholView.jpeg"); */
+      background-image: linear-gradient(to top, rgba(123, 176, 214,0.1),rgba(123, 176, 214,0.15)), url("images/scholView.jpeg");
+
+      /* Full height */
+      height: 100%; 
+  
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+  .mainimg {
+            /* width: 100%; */
+            max-width: 100%;
+
+            height: auto;
+            border-left: solid rgba(0, 70, 119, 1);
+            border-top: solid rgba(0, 70, 119, 1);
+            filter: saturate(120%);
+            box-shadow: 5px 15px 20px rgba(0, 70, 119, 0.4);
+            animation: shake 5.5s;
+            animation-iteration-count: infinite;
+         }
+
+
+         .mainimg>h1{
+
+           background-color: rgba(0, 70, 119, 0.95);
+          
+           /* background-color: red; */
+           text-align: center;
+           color: white;
+           /* margin-bottom: -9px; */
+           text-transform: uppercase;
+           margin: 0;
+           padding: 0;
+         }
+
+         /* .,am */
+         @keyframes shake {
+         
+          0% {  transform: translate(0.5px, 0.5px); }
+          10% { transform: translate(0px, 0px); }
+          20% { transform: translate(-0.5px, -0.5px); }
+          30% { transform: translate(0px, 0px); }
+          40% {  transform: translate(0.5px, 0.5px); }
+          50% { transform: translate(0px, 0px); }
+          60% { transform: translate(-0.5px, -0.5px); }
+          70% { transform: translate(0px, 0px); }
+          80% {  transform: translate(0.5px, 0.5px); }
+          90% { transform: translate(0px, 0px); }
+          100% { transform: translate(0px, 0px); }
+        
+        }
+
+        .heading_style_1{
+          font-family: 'Cormorant Garamond', serif;
+          color: rgba(0, 70, 119,1);
+          text-shadow: 1px 1px 1px rgba(123, 176, 214,1);
+          text-transform: capitalize;
+          letter-spacing: 1px;
+          font-size: 300%;
+          font-weight: 600;
+          margin: 10px;
+        }
+
+        
+
+</style>
+
+</head>
+  <body >
+   
+  <!--navbar-->
+
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div> <!-- .site-mobile-menu -->
+  
+  
+  <div class="site-navbar-wrap">
+    <div class="site-navbar-top" style="background-color: rgba(0, 70, 119,1);color: rgba(123, 176, 214,1);">
+      <div class="container py-3" >
+        <div class="row align-items-center" >
+          <div class="col-6" >
+            <div class="d-flex mr-auto">
+              <a href="#" class="d-flex align-items-center mr-4">
+                <span class="fas fa-envelope mr-2"></span>
+                <span class="d-none d-md-inline-block">contact@stjohnsfatehad.com</span>
+              </a>
+              <a href="#" class="d-flex align-items-center mr-auto">
+                <span class="fas fa-phone-alt mr-2"></span>
+                <span class="d-none d-md-inline-block">+9170156-54374</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 text-right" >
+            <div class="mr-auto">
+              <a href="#" class="p-2 pl-0"><span class="fab fa-twitter"></span></a>
+              <a href="#" class="p-2 pl-0"><span class="fab fa-facebook-f"></span></a>
+              <a href="#" class="p-2 pl-0"><span class="fab fa-linkedin"></span></a>
+              <a href="#" class="p-2 pl-0"><span class="fab fa-instagram"></span></a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-navbar site-navbar-target js-sticky-header" style="background-color: rgba(0, 70, 119,0.7);color: rgba(123, 176, 214,1);">
+      <div class="container" >
+        <div class="row align-items-center" >
+          <div class="col-md-4">
+            <h1 class="my-2 site-logo"><a href="index.html" >St.johns International School </a></h1>
+          </div>
+          <div class="col-md-8 ">
+            <nav class="site-navigation text-right" role="navigation">
+              <div class="container">
+                <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+                <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
+                  <li class="active"><a href="#home-section" class="nav-link">Home</a></li>
+                  <li><a href="#classes-section" class="nav-link">Classes</a></li>
+                  <li class="has-children">
+                    <a href="#" class="nav-link">Pages</a>
+                    <ul class="dropdown arrow-top">
+                      <li><a href="#" class="nav-link">Team</a></li>
+                      <li><a href="#" class="nav-link">Pricing</a></li>
+                      <li><a href="#" class="nav-link">FAQ</a></li>
+                      <li class="has-children">
+                        <a href="#">More Links</a>
+                        <ul class="dropdown">
+                          <li><a href="#">Menu One</a></li>
+                          <li><a href="#">Menu Two</a></li>
+                          <li><a href="#">Menu Three</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="#about-section" class="nav-link">About</a></li>
+                  <li><a href="#events-section" class="nav-link">Events</a></li>
+                  <li><a href="#contact-section" class="nav-link">gallery</a></li>
+                  <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!-- 
+  <div class="hero" style="background-image: url('images/background.jpg');"></div> -->
+
+
+ 
+ <!--./navbar-->
+    <!--to insert responsive image
+    <img src="images/logo.jpeg" class="img-fluid" alt="Responsive image">-->
+    
+
+    <!--to insert reponsive videos-->
+    <div class=" video embed-responsive embed-responsive-16by9">
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/rOw8fKZ2rps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <video  style="  width: 100%; height: auto;" controls>
+          <source src="images/video.mp4" type="video/mp4">
+          <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+          Your browser does not support HTML video.
+        </video>
+        
+    </div>    
+
+    
+<!--overlap-->
+<div  class="overlap d-none d-sm-none d-md-block"  >
+  <div class=" container">
+    <div class="over">
+      <div class="row">
+        <div class=" col-md-3" >
+            <div class="ov1 pillar1">
+              <a href="eightpillars.html"><h6 class="content_style_2">VISION, LEADERSHIP & POLICIES </h6></a>
+             </div>
+         </div>
+         <div class=" col-md-3" >
+           <div class="ov1 pillar1" >
+            <a href="eightpillars.html"><h6 class="content_style_2">LEARNING SYSTEM & CURRICULUM DESIGN </h6></a>
+              </div>
+          </div>
+          <div class=" col-md-3">
+           <div class="ov1 pillar1">
+            <a href="eightpillars.html"><h6 class="content_style_2">TOP-NOTCH PROFESSIONAL FACULTY </h6></a>
+              </div>
+          </div>
+          <div class=" col-md-3">
+           <div class="ov1 pillar1">
+            <a href="eightpillars.html"><h6 class="content_style_2">ANNUAL ACADEMIC PLAN</h6></a>
+              </div>
+          </div>
+    </div>
+
+    <div class="row2 row">
+     <div class=" col-md-3 " >
+       <div class="ov1 pillar4">
+        <a href="eightpillars.html"><h6 class="content_style_2">AFTER SCHOOL CLUBS</h6></a>
+          </div>
+      </div>
+      <div class=" col-md-3">
+       <div class="ov1 pillar1">
+        <a href="eightpillars.html"><h6 class="content_style_2">PLACEMENTS, TIE-UPS AND AWARDS</h6></a>
+           </div>
+       </div>
+       <div class=" col-md-3">
+         <div class="ov1 pillar4" >
+          <a href="eightpillars.html"><h6 class="content_style_2">COMMUNITY OUTREACH</h6></a>
+           </div>
+       </div>
+       <div class=" col-md-3">
+         <div class="ov1 pillar1">
+          <a href="eightpillars.html"><h6 class="content_style_2">INFRASTRUCTURE & FACILITIES</h6></a>
+           </div>
+       </div>
+ </div>
+
+    </div>
+      
+  </div>
+</div>
+<!--end of overlap-->
+<div  class="overlap 	d-block d-sm-none"  >
+  <div class=" container">
+    <div class="over">
+      <div class="row">
+        <div class=" col-md-3" data-aos="fade-right" data-aos-duration="8" data-aos-once="true">
+            <div class="ov1 pillar4"data-aos="fade-right" data-aos-duration="8" data-aos-once="true" >
+              <a href="eightpillars.html"> <h6 class="content_style_2">EIGHT PILLARS OF ST.JOHN'S </h6></a>
+             </div>
+         </div>
+        
+         
+      </div>
+
+    
+    </div>
+
+  </div>
+      
+</div>
+
+
+<!--start of founder message-->
+<section class="founder" >
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 ">
+        <div class="welcome-msg"  >
+          <h1 class=" justify-content-center text-left shimmer" style="font-size: 76.6px; margin-left: -10%;">A warm welcome...</h1><br>
+          <div class="content_style_1">
+            <p  style="font-weight: 500; color: rgba(0, 70, 119,1); font-size: 27px;">To, </p> 
+            <p style="color: rgba(0, 70, 119,1); font-size: 26px; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 900;">St. John's International School, </p>  
+            <br> 
+            <p class="content_style_1" style="text-align: center; font-weight: 600; color: rgba(82, 84, 86,0.85); font-size: 24px;">St.John is a place where your child learns to Build-sefl esteem,value learning, succeed.</p> <br>
+            </p>
+              <!-- <br> -->
+              <div data-aos="fade-up-right" data-aos-delay="500" data-aos-duration="500">
+                <p class="content_style_1" style="text-align: justify; ">A mission statement,like....educating child is our mission..</p>
+                <p class="content_style_1" style="text-align: justify;">Reading comprehension passages in middle school are an important part of language arts curriculum. The middle school years are the time when reading skills must be solidified, and students have to learn to approach written material in a sequenced, logical manner. Once the student reaches high school, reading skills across the curriculum will be both needed and tested. Standardized tests place central focus on reading comprehension, and these tests have urgent importance
+                   for high school students planning to continue their education.</p>
+  
+              </div>
+          </div> 
+        </div>
+        
+      </div>
+     
+      <!-- <div class="fluid-container"> -->
+        <div class="col-sm-12 col-md-4" style="display: flex; align-items: center; ">
+          <!-- <img src="images/founder.jpeg" style="height: 100%; width: 500px;" alt="Responsive image"> -->
+          <div class="fluid-container" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2800" >
+            <!-- <br><br><br><br><br> -->
+            <!-- <div class="column" > -->
+              <br>
+              
+              <div id= "wrapper" data-aos-easing="linear" data-aos="fade-down-left" data-aos-delay="50" data-aos-duration="700" data-aos-anchor-placement="center-bottom">
+                <div class="mainimg">
+                  <h1 style="position:relative; text-align: center; font-size: 25px;letter-spacing: 3px; background-color: rgba(0, 70, 119, 1); font-weight: bolder;" >Mr. Brendan Parnell</h1>
+                  <img class="img-fluid" src="images/BrendenSir_Edited.jpg" height=auto width="100%" alt="" />
+                  <!-- style="position: fixed; z-index: 1; margin-top: -10px;" -->
+                </div>
+              </div>
+            <!-- </div> -->
+          </div>
+        </div>
+
+      <!-- </div> -->
+        
+      <!-- <hr size="6" width="50%" align="right" color="green"/> -->
+     
+    </div>
+  </div>
+
+</section>
+<!--end of founder message-->
+
+<!--school-specs-->
+
+<section class="school-specs" style="background-color: rgb(239, 239, 239); padding:0; margin: 0px 0px 0px 0px;">
+  <div  style="text-align: center;">
+    <h1 class="founder" style="font-size: 300%;" >Why to choose St. John's</h1>
+    <div style="height: 30px;"></div>
+  </div>
+  <div class="container">
+    <div class="row">
+    
+      <div class="col-md-12">
+        <div class="slider-heroo">
+          <div class="featured-carousell owl-carousel">
+            <div class="item1">
+              <div class="work1">
+                <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/Fruits.jpg);">
+                  <div class="text1 text-center" style="background-color: rgba(0, 48, 82, 0.45); border-radius: 4px; max-width: 70%; padding: 2%;">
+                    <h2  style="background-color: transparent;font-size: 300%;">Communication Skills</h2>
+                    <div style="padding: 0 10% 2% 10% ;">
+
+                      <a class="content_style_2" href="www.stjohnsfatehabad.com" style="color: rgb(239, 239, 239);letter-spacing: 0.5px;">It all starts here. St. Timothy’s School prepares our students for a life of integrity, service, and purpose, but don’t just take our word for it. Our parents say it best (Read More)</a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- NORMAL STYLE FOR FUTURE REFERENCE
+            <div class="item1">
+              <div class="work1">
+                <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/communication.jpg);">
+                  <div class="text1 text-center">
+                    <h2>Communication</h2>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <div class="item1">
+              <div class="work1">
+                <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/jatinwithkids.jpg);">
+                  <div class="text1 text-center" style="background-color: rgba(0, 48, 82, 0.45); border-radius: 4px; max-width: 70%; padding: 2%;">
+                    <h2  style="background-color: transparent;font-size: 300%;">Community Outreach</h2>
+                    <div style="padding: 0 10% 2% 10% ;">
+
+                      <a class="content_style_2" href="www.stjohnsfatehabad.com" style="color: rgb(239, 239, 239);letter-spacing: 0.5px;">It all starts here. St. Timothy’s School prepares our students for a life of integrity, service, and purpose, but don’t just take our word for it. Our parents say it best (Read More)</a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item1">
+              <div class="work1">
+                <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/LeowithKids.jpg);">
+                  <div class="text1 text-center" style="background-color: rgba(0, 48, 82, 0.45); border-radius: 4px; max-width: 70%; padding: 2%;">
+                    <h2  style="background-color: transparent;font-size: 300%;">Communication Skills</h2>
+                    <div style="padding: 0 10% 2% 10% ;">
+
+                      <a class="content_style_2" href="www.stjohnsfatehabad.com" style="color: rgb(239, 239, 239);letter-spacing: 0.5px;">It all starts here. St. Timothy’s School prepares our students for a life of integrity, service, and purpose, but don’t just take our word for it. Our parents say it best (Read More)</a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="item1">
+              <div class="work1">
+                <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/jatinwithkids.jpg);">
+                  <div class="text1 text-center" style="background-color: rgba(0, 48, 82, 0.45); border-radius: 4px; max-width: 70%; padding: 2%;">
+                    <h2  style="background-color: transparent;font-size: 300%;">Communication Skills</h2>
+                    <div style="padding: 0 10% 2% 10% ;">
+
+                      <a class="content_style_2" href="www.stjohnsfatehabad.com" style="color: rgb(239, 239, 239);letter-spacing: 0.5px;">It all starts here. St. Timothy’s School prepares our students for a life of integrity, service, and purpose, but don’t just take our word for it. Our parents say it best (Read More)</a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item1">
+              <div class="work1">
+                <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/jatinwithkids.jpg);">
+                  <div class="text1 text-center" style="background-color: rgba(0, 48, 82, 0.45); border-radius: 4px; max-width: 70%; padding: 2%;">
+                    <h2  style="background-color: transparent;font-size: 300%;">Communication Skills</h2>
+                    <div style="padding: 0 10% 2% 10% ;">
+
+                      <a class="content_style_2" href="www.stjohnsfatehabad.com" style="color: rgb(239, 239, 239);letter-spacing: 0.5px;">It all starts here. St. Timothy’s School prepares our students for a life of integrity, service, and purpose, but don’t just take our word for it. Our parents say it best (Read More)</a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <div class="item1">
+              <div class="work1">
+                <div class="img d-flex align-items-center justify-content-center" style="background-image: url(images/dreamDestination.jpg);">
+                  <div class="text1 text-center">
+                    <h2>Dream Destination</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <div class="my-5 text-center">
+        <ul class="thumbnail">
+        <li class="active img"><a href="#"><img src="images/thumbnail/plhwinning.jpg" alt="Image" class="img-fluid"></a></li>
+        <li><a href="#"><img src="images/thumbnail/jatinwithkids.jpg" alt="Image" class="img-fluid"></a></li>
+        <li><a href="#"><img src="images/thumbnail/leowithkids.jpg" alt="Image" class="img-fluid"></a></li>
+        <li><a href="#"><img src="images/thumbnail/dreamdestination.jpg" alt="Image" class="img-fluid"></a></li>
+        <!-- <li><a href="#"><img src="images/thumb-3.jpg" alt="Image" class="img-fluid"></a></li>
+        <li><a href="#"><img src="images/thumb-1.jpg" alt="Image" class="img-fluid"></a></li> -->
+
+      </ul>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+</div>
+<!--end of school specs-->
+
+<!-- STAGES OF LEARNING -->
+
+<section class="levels parallax">
+  <div style="background-color: rgba(0, 48, 87,0.8);">
+<!-- <div class="container"> -->
+
+  <h1 class=" justify-content-center text-left" style="background-color: rgba(0, 48, 87,0.8); color: whitesmoke; text-align: left;">Stages  Of Learning</h1>
+
+<!-- </div> -->
+
+  </div>
+  <div style="height:370px;"> </div>
+  <div style="height:50px;"> </div>
+<main class="page-content">
+  <div class="c1 card">
+    <div class="content">
+      <h2 class="heading_style_1" >lower school</h2>
+      <a class="content_style_2" href="www.stjohnsfatehabad.com" style="color: rgba(239, 239, 239,0.85);letter-spacing: 0.5px;">We look after our tiny tots as they were growing into a big kind of pillars to support mankind</a>
+    </div>
+  </div>
+  <div class="c1 card">
+    <div class="content">
+      <h2 class="heading_style_1"  >middle school</h2>
+      <a class="content_style_2" href="www.stjohnsfatehabad.com" style="color: rgba(239, 239, 239,0.85);letter-spacing: 0.5px;">We look after our tiny tots as they were growing into a big kind of pillars to support mankind</a>
+      <!--<button class="btn">View Trips</button>-->
+    </div>
+  </div>
+  <div class="c1 card">
+    <div class="content">
+      <h2 class="heading_style_1" >high school</h2>
+      <a class="content_style_2" href="www.stjohnsfatehabad.com" style="color: rgba(239, 239, 239,0.85);letter-spacing: 0.5px;">We look after our tiny tots as they were growing into a big kind of pillars to support mankind</a>
+     <!-- <button class="btn">Book Now</button>-->
+    </div>
+  </div>
+
+
+</main>
+
+
+</section> 
+<br><br>
+
+<!--principal message -->
+   
+    <section >
+      <div class="container-fluid" >
+
+        <h1 class=" justify-content-center text-left ">Pillars of St.John's</h1>
+        <!-- <div class="container" style="width: 100%; display: flex; align-items: flex-end; ">
+          <div>
+          
+            <p class="content_style_1" style="text-align: center;  font-weight: 600; color: rgba(82, 84, 86,1); font-size: 24px;">St.John is a place where your child learns to Build-sefl esteem,value learning, succeed.</p> <br>
+          
+          </div>
+          </div> -->
+          <br><br>
+        <div class="row" >
+          <div class="col-sm-12 col-md-6" data-aos="fade-down-right" data-aos-duration="1000">
+            <div class="mainimg" style="width: 90%;" >
+     
+              <h1 style="position:relative; text-align: center; font-size: 25px;letter-spacing: 3px; background-color: rgba(0, 70, 119, 1); font-weight: bolder;" >Mr. Duke Joel Ragland</h1>
+              <img class="img-fluid" src="images/founder.jpeg" height="auto" width="100%" alt="" />
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6" style="display: flex; flex-direction: column; justify-content: center;">
+            <div  data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration="1000">
+                <p class="content_style_1" style="text-align: center; width: 90%; font-weight: 600; color: rgba(82, 84, 86,0.65); font-size: 24px;">
+
+                  St.John is a place where your child learns to Build-sefl esteem,value learning, succeed.</p> <br>
+              </div>
+
+              <div  data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration="2300">
+
+                <div class="msg-box" >
+                  <div class="quote-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                  <h2 class="content_style_2" style="font-size: 170%; text-align: center;">From Principal's Desk</h2>
+                  <hr>
+                  <p class="content_style_1" style="font-size: large; letter-spacing: 0px;text-align: justify;">"We, the pillars of st.John's are working together for the betterment of educational standards of the students and there by making a progress towards the excellence of the students in all aspects of their life"</p>
+                    <hr>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--end of principal message-->
+<br><br>
+
+<!--profile card-->
+
+<!-- REMOVED SECTION -->
+<!--meet our teachers-->
+<br><br><br>
+<section class="teachers">
+  <div class="container-fluid">
+    <h1 class=" justify-content-center text-center ">Meet Our Teachers</h1>
+    <br><br>
+      <div class="row">
+        <div class="teach-carousel owl-carousel">
+          <div class="teach-item">
+            <div class="teach-work">
+              <div class="img img d-flex align-items-end justify-content-center" style="background-image: url(images/jith.jpg);">
+                <div class="w-100" style="background-color: rgba(0, 48, 87,0.8);border-radius: 4px;">
+                  <span class="content_style_2_nohover" >Mr. Jitender Singh</span>
+                  <span class="content_style_2_nohover" style="font-size: 18px; text-transform: capitalize;">15+ Years in Physics</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teach-item">
+            <div class="teach-work">
+              <div class="img img d-flex align-items-end justify-content-center" style="background-image: url(images/bar.jpg);">
+                <div class="w-100" style="background-color: rgba(0, 48, 87,0.8);border-radius: 4px;">
+                  <span class="content_style_2_nohover">Mr. Bharti Sharma</span>
+                  <span class="content_style_2_nohover" style="font-size: 18px; text-transform: capitalize;">IELTS & Spoken English Teacher</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teach-item">
+            <div class="teach-work">
+              <div class="img img d-flex align-items-end justify-content-center" style="background-image: url(images/lee.jpg);">
+                <div class="w-100" style="background-color: rgba(0, 48, 87,0.8);border-radius: 4px;">
+                  <span class="content_style_2_nohover">Mr. Leo Akash Raj</span>
+                  <span class="content_style_2_nohover" style="font-size: 18px; text-transform: capitalize;">PGT Biology Teacher</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teach-item">
+            <div class="teach-work">
+              <div class="img img d-flex align-items-end justify-content-center" style="background-image: url(images/prav.jpg);">
+                <div class="w-100" style="background-color: rgba(0, 48, 87,0.8);border-radius: 4px;">
+                  <span class="content_style_2_nohover">Mr. Praveen Kumar</span>
+                  <span class="content_style_2_nohover" style="font-size: 18px; text-transform: capitalize;">PGT English Teacher</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="teach-item">
+            <div class="teach-work">
+              <div class="img img d-flex align-items-end justify-content-center" style="background-image: url(images/anit.jpg);">
+                <div class="w-100" style="background-color: rgba(0, 48, 87,0.8);border-radius: 4px;">
+                  <span class="content_style_2_nohover" >Mrs. Anitha</span>
+                  <span class="content_style_2_nohover" style="font-size: 18px; text-transform: capitalize;">PGT Maths</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+<!--end of meet our teachers-->
+
+
+<!--news and events-->
+<section class="news-events">
+  <div class="container" >
+    <br><br>
+    <div class="latestnews">
+        <div class="container"> 
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Student's Corner</h1>
+                </div> 
+            </div>
+            <div class="lnews1">
+                <div class="row">  
+                    <div class="col-md-5">
+                        <img class="img-fluid" src="images/News/Editted by nikil 2.jpg">
+                    </div>
+                    <div class="col-md-5" style="display: flex; flex-direction: column; justify-content:center;">
+                        <h5 class="content_style_2" style="font-size: 140%;">CONGRATULATIONS DEEPA & AARZOO!!! <br> For winning Gold Medal</h5>
+                        <br>
+                        <p>Two eighth graders were selected for the Headmaster’s Cup and the Faculty Cup.</p>
+                    </div>
+                </div>
+            </div>
+          
+            <div class="lnews1">
+                <div class="row">  
+                    <div class="col-md-5">
+                        <img class="img-fluid" src="images/News/Editted by nikil.jpg">
+                    </div>
+                    <div class="col-md-5" style="display: flex; flex-direction: column; justify-content: center;">
+                        <h5  class="content_style_2" style="font-size: 140%;">The Second Grand Parent Meeting Conference</h5>
+                        <br>
+                        <p>Two eighth graders were selected for the Headmaster’s Cup and the Faculty Cup.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <a href="studentscorner.html"><p class="content_style_2"  style="text-align: center;text-transform: capitalize; font-size: larger;">show all </p></a>
+              </div>
+            </div>
+            
+        </div>   
+    </div>
+    
+    <div class="latestevents">
+        <div class="container ">
+          
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Events</h1>
+                </div> 
+            </div>
+            <div class="levent1">
+                <div class="row">
+                    <div class="col-5 col-md-4">
+                        <div class="date-box" style="display: flex; flex-direction: column; justify-content: space-between;">
+                            <div style="text-transform: uppercase; text-align: center; font-size: large; font-weight: 600;color: rgb(239, 239, 239);" >jun</div>
+                            <div style="color: rgb(239, 239, 239);font-size: larger;">28</div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-8" style="display: flex; flex-direction: column; justify-content: center;">
+                        <h5  class="content_style_2" style="font-size: 140%;">Used Uniform Sale</h5>
+                        <p>Time: 9 AM – 2 PM</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="levent1">
+                <div class="row">
+                    <div class="col-5 col-md-4">
+                      <div class="date-box" style="display: flex; flex-direction: column; justify-content: space-between;">
+                        <div style="text-transform: uppercase; text-align: center; font-size: large; font-weight: 600;color: rgb(239, 239, 239);" >jun</div>
+                        <div style="color: rgb(239, 239, 239);font-size: larger;">28</div>
+                    </div>
+                        
+                    </div>
+                    <div class="col-6 col-md-8" style="display: flex; flex-direction: column; justify-content: center;">
+                      <h5  class="content_style_2" style="font-size: 140%;">Used Uniform Sale</h5>
+                      <p>Time: 9 AM – 2 PM</p>
+                  </div>
+                    
+                </div>
+            </div>
+
+            <div class="levent1">
+              <div class="row">
+                  <div class="col-5 col-md-4">
+                    <div class="date-box" style="display: flex; flex-direction: column; justify-content: space-between;">
+                      <div style="text-transform: uppercase; text-align: center; font-size: large; font-weight: 600;color: rgb(239, 239, 239);" >jun</div>
+                      <div style="color: rgb(239, 239, 239);font-size: larger;">28</div>
+                  </div>
+                      
+                  </div>
+                  <div class="col-6 col-md-8" style="display: flex; flex-direction: column; justify-content: center;">
+                    <h5  class="content_style_2" style="font-size: 140%;">Used Uniform Sale</h5>
+                    <p>Time: 9 AM – 2 PM</p>
+                  </div>
+                  
+              </div>
+           </div>
+           <div class="levent1">
+            <div class="row">
+                <div class="col-5 col-md-4">
+                  <div class="date-box" style="display: flex; flex-direction: column; justify-content: space-between;">
+                    <div style="text-transform: uppercase; text-align: center; font-size: large; font-weight: 600;color: rgb(239, 239, 239);" >jun</div>
+                    <div style="color: rgb(239, 239, 239);font-size: larger;">28</div>
+                </div>
+                    
+                </div>
+                <div class="col-6 col-md-8" style="display: flex; flex-direction: column; justify-content: center;">
+                  <h5  class="content_style_2" style="font-size: 140%;">Used Uniform Sale</h5>
+                  <p>Time: 9 AM – 2 PM</p>
+                </div>
+                
+            </div>
+         </div>
+        
+          <div class="row">
+            <div class="col-md-12">
+              <a href="news.html"><p class="content_style_2"  style="text-align: center;text-transform: capitalize; font-size: larger;">show all news and events</p></a>
+            </div>
+          </div>
+         
+            
+        </div>
+    </div>
+  </div>
+   
+    
+</section>
+
+<!--./news and events-->
+<div class="clearfix"></div>
+
+
+<!--footer-->
+<footer class=footer style="background-color: rgba(0, 48, 87,1);">
+    <div class="container" >
+      <div class="fbox" >
+        <div class="row">
+          <div class="col-md-9"  style="display: flex; flex-direction: column;">
+              <p class="content_style_1" style="color: rgba(0, 48, 87,1);font-size: large;font-weight: bolder;">Get Your Queries Clarified With Our Experts</p>
+              <p class="content_style_1" style="font-weight: 900;color: rgba(0, 48, 87,1);font-size: xx-large;letter-spacing: 1px;">Book A School Visit Now...!!!</p>
+          </div>
+          <div class="col-md-3">
+             <button class="btn" style="background-color: rgb(0, 48, 87);letter-spacing: 1px;font-size: small;">Contact Us</button>
+          </div>
+        </div><!--./row-->
+      </div>
+      <div class="row" >
+        <div class="col-md-12"> 
+           <h1 class=" justify-content-center text-center" style="color: rgba(123, 176, 214,1);letter-spacing: .5px;text-transform: uppercase;"> St. John's International School</h1>
+        </div>
+      
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+        
+              <ul class="footer_list1" style="color: rgba(239, 239, 239,0.85);">
+                 <li><i class="fas fa-map-marker p-3"></i>5th KM Milestone,Bhattu Road,Fatehabad,Haryana.</li>
+                 <li><i class="fas fa-phone-alt p-3"></i>70156-54374, 79885-24341</li>
+                 <li><i class="fas fa-envelope p-3"></i>contact@stjohnsfatehad.com</li>   
+              </ul>
+        </div>
+
+          <div class="col-md-4">
+            <div class="follow">
+              <h5 >Follow us</h5>
+              <!--headin5_amrc ends here-->
+        
+              <ul class="footer_list2" style="color: rgba(239, 239, 239,0.85);">
+                 <li><a href="#"><i class="fab fa-facebook-f p-3"></i></li>
+                 <li><a href="#"><i class="fab fa-twitter p-3"></i></li>
+                 <li><a href="#"><i class="fab fa-linkedin p-3"></i></li>
+      
+              </ul>
+            </div>
+             
+ 
+          </div>
+      </div><!--./row-->
+<br>
+      <div class="row">
+        <div class="col-md-12">
+           <ul class="footer_list3">
+             <li><a href="#" class="footertext">Home</a></li>
+             <li><a href="#" class="footertext">About</a></li>
+             <li><a href="#" class="footertext">Education</a></li>
+             <li><a href="#" class="footertext">Academic</a></li>
+             <li><a href="#" class="footertext">Admission</a></li>
+             <li><a href="#" class="footertext">Contact</a></li>
+           </ul>
+       </div>
+   
+      
+      </div>
+   
+       <p class="text-center content_style_2" style="color: rgba(239, 239, 239,0.85);font-family: Arial, Helvetica, sans-serif; font-size: large; font-weight: 500; letter-spacing: 1px;" >Copyright @2k21 <br>Designed by <a href="#"> BlueOse Tech World</a></p>
+    </div><!--./container-->
+</footer>
+<!--./footer-->
+
+<!--techers profile-->
+<script src="assets/owl/jquery.min.js"></script>
+<script src="assets/owl/owl.carousel.min.js"></script>
+
+<script src="school_specs.js"></script>
+<script src="teachers.js"></script>
+<script>
+  AOS.init({
+  disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+  });
+</script>
+
+
+
+<!--navbar-->
+<script src="assets/navbar/js/jquery-3.3.1.min.js"></script>
+<script src="assets/navbar/js/jquery.sticky.js"></script>
+<script src="assets/navbar/js/main.js"></script>
+<!--/navbar-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
+
