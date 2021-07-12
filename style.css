@@ -20,12 +20,19 @@ body{
 /* margin-left: 30px; */
 
 }
-
+@media(min-width:1400px)
+{
+  .founder .welcome
+  {
+    margin-left: -10%;
+  }
+}
 
 
 .content_style_1{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
+  /* font-size: 24px; */
+  font-size: calc(1rem + 0.5vw);
   line-height: 40.8px;
   vertical-align: baseline;
   font-weight: 500;
@@ -36,7 +43,9 @@ body{
 
 .content_style_2_nohover{
   font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
+  /* font-size: 20px; */
+  /* font-size: calc(0.6rem + 0.4vw); */
+  /* font-size: calc(1rem + 0.3vw); */
   line-height: 26.88px;
   font-weight: 800;
   text-shadow: 1px 1px 2px rgba(123, 176, 214,1);
@@ -51,7 +60,10 @@ body{
   /* background-color:rgb(239, 239, 239); */
   font-family: 'Cormorant Garamond', serif;
   color: #003057;
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: calc(0.25rem + 1vw);/*20px*/
+  /* font-size: xx-large; */
+ 
   line-height: 26.88px;
   vertical-align: baseline;
   font-weight: 800;
@@ -231,10 +243,11 @@ margin-top: 13px;
   
 }
 
-@media (min-width:1000px) {
+@media (min-width:1400px) {
   #wrapper
 {
-  width: 150%;
+  width: 148%;
+  height: auto;
 }
 }
 
@@ -249,8 +262,8 @@ margin-top: 13px;
 .ftco-no-pb {
   padding-bottom: 0; }
 
-.heading-section {
-  font-size: 28px; }
+/* .heading-section {
+  font-size: 28px; } */
 
 .img {
   background-size: cover;
@@ -340,20 +353,22 @@ margin-top: 13px;
       z-index: -1;
       background: #000;
       opacity: .3; }
-  .work1 .text1 h2 {
-    font-size: 60px;
+ .school-specs .work1 .text1 h2 {
+    /* font-size: 60px; */
+    font-size: calc(1.3rem + 2.6vw);/*300%*/
+    background-color: transparent;
     font-weight: 200;
     color: #fff;
     text-transform: uppercase; }
-    @media (max-width: 991.98px) {
+    /* @media (max-width: 991.98px) {
       .work1 .text1 h2 {
-        font-size: 40px; } }
-  .work1 .text1 span {
+        font-size: 40px; } } */
+  /* .work1 .text1 span {
     font-size: 12px;
     letter-spacing: 1px;
     color: rgba(0, 0, 0, 0.3);
     text-transform: uppercase;
-    font-weight: 500; }
+    font-weight: 500; } */
 
 .thumbnail {
   list-style: none;
@@ -445,7 +460,19 @@ margin-top: 13px;
 /*end of techers profile*/
 
 /*school levels*/
+.content_style_3{
+  /* background-color:rgb(239, 239, 239); */
+  font-family: 'Cormorant Garamond', serif;
+  color: #003057;
+  font-size: 18px;
 
+  /* font-size: xx-large; */
+ 
+  line-height: 26.88px;
+  vertical-align: baseline;
+  font-weight: 800;
+  text-decoration: none solid rgb(255,255,255); 
+}
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
 :root {
   --d: 700ms;
@@ -540,17 +567,17 @@ margin-top: 13px;
   .content > * + * {
     margin-top: 1rem; }
 
-.title {
+/* .title {
   font-size: 1.3rem;
   font-weight: bold;
-  line-height: 1.2; }
+  line-height: 1.2; } */
 
-.copy {
+/* .copy {
   font-family: var(--font-serif);
   font-size: 1.125rem;
   font-style: italic;
-  line-height: 1.35; }
-
+  line-height: 1.35; } */
+/* 
 .btn {
   cursor: pointer;
   margin-top: 1.5rem;
@@ -566,7 +593,7 @@ margin-top: 13px;
     background-color: #0d0d0d; }
   .btn:focus {
     outline: 1px dashed yellow;
-    outline-offset: 3px; }
+    outline-offset: 3px; } */
 
 @media (hover: hover) and (min-width: 600px) {
   .card:after {
@@ -863,5 +890,11 @@ font-size: 1rem;
 .footertext:hover{
   text-decoration: underline;
   font-size: large;
+}
+.footer .btn{
+ background-color: rgb(0, 48, 87);
+ letter-spacing: 1px;
+ font-size: small;
+
 }
 /*footer end*/
